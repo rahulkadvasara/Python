@@ -1,8 +1,5 @@
 # 2006. Count Number of Pairs With Absolute Difference K
-# Easy
-# Topics
-# Companies
-# Hint
+
 # Given an integer array nums and an integer k, return the number of pairs (i, j) where i < j such that |nums[i] - nums[j]| == k.
 
 # The value of |x| is defined as:
