@@ -79,3 +79,18 @@
 #             score += abs(t.find(ch)-index)
 #         return score
 
+
+# sol 1
+# class Solution:
+#     def mostWordsFound(self, sentences: List[str]) -> int:
+#         return max(s.count(" ") for s in sentences)+1
+
+# sol 2
+# class Solution:
+#     def mostWordsFound(self, sentences: List[str]) -> int:
+#         max = 0
+#         for e in sentences:
+#             s = e.split()
+#             if len(s) > max:
+#                 max = len(s)
+#         return max
