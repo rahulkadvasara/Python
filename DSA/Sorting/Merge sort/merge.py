@@ -37,7 +37,7 @@ def merge_two_sorted_lists(a,b,arr):
         arr[k] = b[j]
         j+=1
         k+=1
-
+ 
 if __name__ == '__main__':
     test_cases = [
         [10, 3, 15, 7, 8, 23, 98, 29],
