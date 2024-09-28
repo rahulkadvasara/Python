@@ -27,12 +27,12 @@
 # nums.length == 2n
 # 1 <= nums[i] <= 10^3
 
-class Solution(object):
-    def shuffle(self, nums, n):
-        ans=[0]*(2*n)
-        j=0
-        for i in range(n):
-            ans[j]=nums[i]
-            ans[j+1]=nums[n+i]
-            j+=2
-        return ans
+# class Solution(object):
+#     def shuffle(self, nums, n):
+#         ans=[0]*(2*n)
+#         j=0
+#         for i in range(n):
+#             ans[j]=nums[i]
+#             ans[j+1]=nums[n+i]
+#             j+=2
+#         return ans

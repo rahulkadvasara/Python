@@ -38,15 +38,15 @@
 # 1 <= extraCandies <= 50
 
 # sol 1
-class Solution(object):
-    def kidsWithCandies(self, candies, extraCandies):
-        op=[]
-        for i in candies:
-            if i+extraCandies>=max(candies):
-                op.append(True)
-            else:
-                op.append(False)
-        return op
+# class Solution(object):
+#     def kidsWithCandies(self, candies, extraCandies):
+#         op=[]
+#         for i in candies:
+#             if i+extraCandies>=max(candies):
+#                 op.append(True)
+#             else:
+#                 op.append(False)
+#         return op
  
 # sol 2
 # class Solution:
