@@ -32,14 +32,14 @@
 # x is a lowercase English letter.
 # words[i] consists only of lowercase English letters.
 
-class Solution(object):
-    def findWordsContaining(self, words, x):
-        ans=[]
-        for i in range(len(words)):
-            for j in words[i]:
-                if j==x:
-                    ans.append(i)
-                    break
-        return ans
+# class Solution(object):
+#     def findWordsContaining(self, words, x):
+#         ans=[]
+#         for i in range(len(words)):
+#             for j in words[i]:
+#                 if j==x:
+#                     ans.append(i)
+#                     break
+#         return ans
     
 

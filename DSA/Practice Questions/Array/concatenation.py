@@ -30,7 +30,7 @@
 # 1 <= n <= 1000
 # 1 <= nums[i] <= 1000
 
-class Solution(object):
-    def getConcatenation(self, nums):
-        return nums+nums
+# class Solution(object):
+#     def getConcatenation(self, nums):
+#         return nums+nums
 

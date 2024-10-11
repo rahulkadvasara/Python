@@ -61,7 +61,7 @@
 #         right = binary_search(nums, target, False)
         
 #         return [left, right]
-            
+           
 # # sol 2
 # f = open("user.out", 'w')
 # for nums, tar in zip(stdin, stdin):
