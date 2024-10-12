@@ -1,8 +1,6 @@
 # 3065. Minimum Operations to Exceed Threshold Value I
 # Easy
-# Topics
-# Companies
-# Hint
+
 # You are given a 0-indexed integer array nums, and an integer k.
 
 # In one operation, you can remove one occurrence of the smallest element of nums.
@@ -121,4 +119,12 @@
 #             return len(arr1)
 
 
+# sol 9
 
+# class Solution:
+#     def minOperations(self, nums: List[int], k: int) -> int:
+#         count = 0
+#         for i in nums:
+#             if i < k:
+#                 count += 1
+#         return count
