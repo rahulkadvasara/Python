@@ -1,4 +1,4 @@
-# # 2789 number of employee who met the target
+# # 2798 number of employee who met the target 
 
 # There are n employees in a company, numbered from 0 to n - 1. Each employee i has worked for hours[i] hours in the company.
 
