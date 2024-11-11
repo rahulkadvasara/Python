@@ -57,3 +57,13 @@
 #         return count
 
     
+# sol 4
+
+# class Solution:
+#     def numJewelsInStones(self, jewels: str, stones: str) -> int:
+#         n=len(stones)
+#         for c in jewels:
+#             stones=stones.replace(c, "")
+#         return n-len(stones)
+
+

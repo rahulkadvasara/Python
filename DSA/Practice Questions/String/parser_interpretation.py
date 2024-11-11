@@ -61,3 +61,18 @@
 #                 elif command[i+1]=="a":
 #                     res.append("al")
 #         return "".join(res)
+
+
+# sol 3
+# class Solution:
+#     def interpret(self, command: str) -> str:
+#         r = ''
+#         for i in range(len(command)):
+#             if command[i] == 'G':
+#                 r = r + 'G'
+#             if command[i] == '(' and command[i + 1] ==')':
+#                 r = r + 'o'
+#             if command[i] == '(' and command[i + 1] == 'a':
+#                 r = r + 'al'
+                
+#         return r

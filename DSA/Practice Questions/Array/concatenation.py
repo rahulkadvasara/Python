@@ -30,7 +30,18 @@
 # 1 <= n <= 1000
 # 1 <= nums[i] <= 1000
 
+# sol 1 
+
 # class Solution(object):
 #     def getConcatenation(self, nums):
 #         return nums+nums
 
+
+# sol 2
+
+# class Solution(object):
+#     def getConcatenation(self, nums):
+#         self.nums=nums
+#         nums.extend(nums)
+#         return nums
+        

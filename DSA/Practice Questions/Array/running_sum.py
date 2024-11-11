@@ -94,6 +94,12 @@
 #         return ans
 
 
-
-
-
+# sol 8
+# class Solution:
+#     def runningSum(self, nums: List[int]) -> List[int]:
+#         curr = 0
+#         ans = []
+#         for i in range(len(nums)):
+#             curr += nums[i]
+#             ans.append(curr)
+#         return ans

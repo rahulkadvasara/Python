@@ -27,13 +27,13 @@
 # 1 <= nums.length <= 100
 # 1 <= nums[i] <= 100
 
-class Solution(object):
-    def numIdenticalPairs(self, nums):
-        good=0
-        for i in range(len(nums)-1):
-            for j in range(i+1,len(nums)):
-                if nums[i]==nums[j]:
-                    good+=1
-        return good
+# class Solution(object):
+#     def numIdenticalPairs(self, nums):
+#         good=0
+#         for i in range(len(nums)-1):
+#             for j in range(i+1,len(nums)):
+#                 if nums[i]==nums[j]:
+#                     good+=1
+#         return good
 
 
